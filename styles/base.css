@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+  padding: 2em 1em;
   gap: 1em;
   align-content: start;
   max-width: 45em;
