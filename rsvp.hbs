@@ -3,7 +3,12 @@ title: RSVP
 layout: base.hbs
 ---
 
-<form netlify>
+<form  
+  name="contact"
+  action="/thank-you"
+  method="POST"
+  data-netlify="true"
+>
   <label>
     Name:
     <input type="text" name="name"/>
