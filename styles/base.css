@@ -1,0 +1,12 @@
+html, body {
+  display: grid;
+  height: 100%;
+}
+
+body {
+  gap: 1em;
+  align-content: start;
+  max-width: 45em;
+  width: 100%;
+  margin-inline: auto;
+}

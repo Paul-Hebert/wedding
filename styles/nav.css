@@ -1,0 +1,11 @@
+.site-header {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1em;
+}
