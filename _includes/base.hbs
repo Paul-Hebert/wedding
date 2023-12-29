@@ -6,8 +6,9 @@
 
     <link rel="stylesheet" href="/styles/base.css" />
     <link rel="stylesheet" href="/styles/nav.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
   </head>
-  <body>
+  <body class="{{bodyClass}}">
     <header class="site-header">
       <a href="/">Paul and Lisa's Wedding</a>
       <nav class="site-nav">
@@ -19,8 +20,6 @@
       </nav>
     </header>
     <main>
-      <h1>{{title}}</h1>
-
       {{{content}}}
     </main>
   </body>
