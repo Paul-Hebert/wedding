@@ -1,0 +1,5 @@
+- Optimize fonts
+- Set up better per page CSS loading
+- Colors?
+- Real RSVP form
+- About page?

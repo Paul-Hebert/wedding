@@ -30,11 +30,32 @@ img {
 }
 
 main {
-  width: min(30rem, 100%);
+  --main-size: 30rem;
+
+  width: min(var(--main-size),  100%);
   padding: 1em;
   display: grid;
   margin: 0 auto;
-  place-content: center;
   container-type: inline-size;
-  text-align: center;
+}
+
+main, .rhythm {
+  --rhythm: 1.125em;
+}
+
+main > * + *,
+.rhythm > * + *  {
+  margin-top: var(--rhythm);
+}
+
+h1, h2 {
+  font-family: Solitreo;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.75rem;
 }

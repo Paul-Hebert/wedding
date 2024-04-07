@@ -1,0 +1,36 @@
+main {
+  padding-block: 3em;
+}
+
+@media (min-width: 850px) {
+  main {
+    --main-size: 60rem;
+  }
+
+  .agenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      ". overview . "
+      "thursday friday saturday";
+    gap: 1.5em;
+  }
+
+  .agenda-overview {
+    grid-area: overview;
+    margin-inline: -3em;
+    text-align: center;
+  }
+
+  .thursday {
+    grid-area: thursday;
+  }
+
+  .friday {
+    grid-area: friday;
+  }
+
+  .saturday {
+    grid-area: saturday;
+  }
+}

@@ -1,6 +1,10 @@
 main {
+
+  --rhythm: 0;
   margin-top: auto;
   padding-bottom: 3em;
+  place-content: center;
+  text-align: center;
 }
 
 @media (min-width: 500px) {
