@@ -1,106 +1,33 @@
 main {
-  width: min(30rem, 100%);
-  padding-inline: 1em;
-  display: grid;
-  margin: 0 auto;
-  place-content: center;
-  container-type: inline-size;
+  margin-top: auto;
+  padding-bottom: 3em;
+}
+
+@media (min-width: 500px) {
+  main {
+    margin-bottom: auto;
+    padding-bottom: 1em;
+  }
+}
+
+h1 {
+  font-family: Sacramento;
+  font-size: 19cqw;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 0.25em;
   text-align: center;
 }
 
-.home .site-header {
-  animation: fade-in 2s ease-out both 2s;
+.subtitle {
+  font-family: Solitreo;
+  font-size: 5cqw;
+  text-align: center;
 }
 
-.home-illustration {
-  display: grid;
-  place-items: center;
-  gap: 0.75em;
-}
-
-.home-illustration-graphic {
-  rotate: -0.5deg;
-  animation: home-drawing 2s ease-out;
-}
-
-.lisa-and-paul-text {
-  align-self: end;
-  width: 90%;
-  position: relative;
-}
-
-.invite-you-to-their-wedding {
-  width: 75%;
-  align-self: start;
-}
-
-.invite-you-to-their-wedding path {
-  animation-name: fade-in, drop-down;
-  animation-duration: 0.35s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: both;
-  animation-delay: calc(1s + var(--index, 0) * 50ms);
-}
-
-.stroked,
-.grow {
-  --easing: ease-out;
-  --speed-modifier: 1ms;
-  --_duration: calc(var(--duration) * var(--speed-modifier));
-  --_delay: calc(0.5s + var(--delay) * var(--speed-modifier));
-
-  animation: line-drawing-stroke var(--_duration) var(--easing) both;
-  animation-delay: var(--_delay, 0);
-  stroke-dasharray: var(--line-length);
-  stroke-dashoffset: var(--line-length);
-}
-
-.grow {
-  animation-name: grow;
-  transform-origin: center;
-  transform-box: fill-box;
-}
-
-@keyframes line-drawing-stroke {
-  from {
-    opacity: 0;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.stroked {
-  clip-path: url(#clip-path);
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-}
-
-@keyframes drop-down {
-  from {
-    translate: 0 -100%;
-  }
-}
-
-@keyframes grow {
-  from {
-    /* translate: 0 -100%; */
-    scale: 0;
-  }
-}
-
-@keyframes home-drawing {
-  from {
-    opacity: 0;
-    translate: 0 5%;
-  }
+.rsvp {
+  display: block;
+  font-family: Solitreo;
+  font-size: 7cqw;
+  margin-top: 0.5em;
 }

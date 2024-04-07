@@ -11,15 +11,30 @@
 
 html {
   line-height: 1.4;
+  display: grid;
 }
 
 html,
 body {
-  display: grid;
   min-height: 100svh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 100%;
   max-width: 100%;
+}
+
+main {
+  width: min(30rem, 100%);
+  padding: 1em;
+  display: grid;
+  margin: 0 auto;
+  place-content: center;
+  container-type: inline-size;
+  text-align: center;
 }
