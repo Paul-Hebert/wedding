@@ -1,8 +1,7 @@
 main {
-
+  --main-size: 30rem;
   --rhythm: 0;
   margin-top: auto;
-  padding-bottom: 3em;
   place-content: center;
   text-align: center;
 }
