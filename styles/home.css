@@ -29,8 +29,9 @@ h1 {
 }
 
 .rsvp {
-  display: block;
   font-family: Solitreo;
-  font-size: 7cqw;
-  margin-top: 0.5em;
+  font-size: max(1em, 5.5cqw);
+  display: grid;
+  place-content: center;
+  margin-top: 1em;
 }
