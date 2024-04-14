@@ -3,7 +3,7 @@ form {
   gap: 3em;
 }
 
-form:not(.expanded) .form-section:not(:first-child) {
+form:not(.expanded) .form-section:not(.intro) {
   display: none;
 }
 
