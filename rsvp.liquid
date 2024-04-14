@@ -2,6 +2,13 @@
 title: RSVP 
 layout: base.hbs
 ---
+<link rel="stylesheet" href="/styles/rsvp.css" />
+<script type="module" src="/scripts/rsvp.js"></script>
+
+
+<h1>RSVP</h1>
+
+<p>Please fill out the form below to let us know who is coming.</p>
 
 <form  
   name="contact"
@@ -10,10 +17,181 @@ layout: base.hbs
   data-netlify="true"
   netlify
 >
-  <label>
-    Name:
-    <input type="text" name="name"/>
-  </label>
+  <div class="form-section intro">
+    <div class="two-column">
+      <label>
+        <span>Who is filling out this form?</span>
+        <input type="text" name="submitter-name" required/>
+      </label>
 
-  <button type="submit">RSVP</button>
+      <label>
+        <span>Are you able to attend our wedding?</span>
+        <select required name="coming">
+          <option disabled selected></option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="form-section contact">
+    <h2>Contact info</h2>
+
+    <p>How should we contact you with updates?</p>
+
+    <div class="two-column">
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" required/>
+      </label>
+
+      <label>
+        <span>Phone Number</span>
+        <input type="tel" name="phone" required/>
+      </label>
+    </div>
+  </div>
+
+  <div class="form-section attendees">
+    <h2>Who's Coming?</h2>
+    
+    <p>
+      Thinking of bringing a Plus-One who's not on your invitation?
+      We'd love to meet your special someone, but hosting people is expensive.
+      Please only bring serious partners: no friends or flings.
+    </p>
+    
+    <label>
+      <span>Please list everyone in your group:</span>
+
+      <textarea name="full-attendees" required></textarea>
+
+      <p>(Unfortunately the venue does not allow dogs.)</p>
+    </label>
+  </div>
+
+  <div class="form-section days">
+    <h2>Which Days?</h2>
+
+    <p>
+      We'll be celebrating all weekend, checking in Thursday afternoon and 
+      checking out Sunday morning. We hope you can join us.
+    </p>
+
+    <p><b>What days will you be there?</b></p>
+
+    <div class="days-options">
+      <label class="checkbox-radio-label">
+        <input type="checkbox" name="thursday" />
+        <span>Thursday</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="checkbox" name="friday" />
+        <span>Friday</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="checkbox" name="friday" checked />
+        <span>Saturday (the day of the ceremony)</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="form-section lodging">
+    <h2>Lodging</h2>
+
+    <p>
+      There are a variety of lodging options to ensure you're comfortable at our
+      wedding. However, there's a limited number of some of the options.
+      Please let us know your preference and we'll do our best to make it happen.
+    </p>
+
+    <p>TODO: Do we want to ask for money?</p>
+    
+    <p><b><span>Where would your party like to sleep?</span></b></p>
+
+    <div class="lodging-options">
+      <label class="checkbox-radio-label">
+        <input type="radio" name="camping" />
+        <span>We'll bring our own tent and camp!</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="rv" />
+        <span>We'll bring an RV or trailer! (There are no electricity or water hook-ups.)</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="bell-tent" />
+        <span>A bell tent, yurt, tipi, or jupe with a queen bed.</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="bell-tent" />
+        <span>A bell tent with a queen bed and an additional air mattress. (TODO: info about costs?)</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="off-site" />
+        <span>I don't plan to stay at the lodge.</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="cabin" />
+        <span>We already chatted about lodging and you told me you had a special spot for me.</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="form-section food">
+    <h2>Food</h2>
+
+    <label>
+      <span>
+        Does anyone in your party have dietary restrictions?
+      </span>
+
+      <span>
+        (Please list each person's restrictions separately)
+      </span>
+    
+      <textarea name="dietary-restrictions"></textarea>
+    </label>
+
+    <label>
+      <span>
+        Would you like us to provide you food for the whole weekend?
+      </span>
+
+      <span>
+        We'll be providing dinners Thursday, Friday and Saturday free of charge.
+        We plan to also do a large grocery trip to purchase breakfast and lunch
+        items that guests can access throughout the weekend. 
+      </span>
+
+      <span>
+        In order to provide these additional meals we're asking folks to contribute
+        a small amount to help cover the costs. We're asking for $50 per person for
+        these additional meals.
+      </span>
+
+      <span>
+        TODO: more payment stuff?
+      </span>
+
+      <select name="wants-food" required>
+        <option disabled selected></option>
+        <option value="yes">Yes, we'd like to eat your breakfasts and lunches!</option>
+        <option value="no">No, we'll bring our own breakfasts and lunches.</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="form-section food">
+    <h2>That's it!</h2>
+
+    <p>Thanks for filling this out. We can't wait to celebrate with you!</p>
+  </div>
+
+  <button type="submit" class="button">
+    <span class="button-back"></span>
+    <span class="button-front">
+      <span class="button-text">Submit</span>
+    </span>
+  </button>
 </form>
