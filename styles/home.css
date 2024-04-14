@@ -35,3 +35,7 @@ h1 {
   place-content: center;
   margin-top: 1em;
 }
+
+.button-back {
+  scale: 1.025;
+}
