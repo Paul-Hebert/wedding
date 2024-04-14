@@ -83,15 +83,15 @@ layout: base.hbs
 
     <div class="days-options">
       <label class="checkbox-radio-label">
-        <input type="checkbox" name="thursday" />
+        <input type="checkbox" name="Days: Thursday" />
         <span>Thursday</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="checkbox" name="friday" />
+        <input type="checkbox" name="Days: Friday" />
         <span>Friday</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="checkbox" name="friday" checked />
+        <input type="checkbox" name="Days: Saturday" checked />
         <span>Saturday (the day of the ceremony)</span>
       </label>
     </div>
@@ -112,27 +112,27 @@ layout: base.hbs
 
     <div class="lodging-options">
       <label class="checkbox-radio-label">
-        <input type="radio" name="camping" />
+        <input type="radio" name="lodging-choice" value="Camping" />
         <span>We'll bring our own tent and camp!</span>
       </label>
-      <label class="checkbox-radio-label">
+      <label class="checkbox-radio-label" name="lodging-choice" value="RV">
         <input type="radio" name="rv" />
         <span>We'll bring an RV or trailer! (There are no electricity or water hook-ups.)</span>
       </label>
-      <label class="checkbox-radio-label">
+      <label class="checkbox-radio-label" name="lodging-choice" value="Bell Tent">
         <input type="radio" name="bell-tent" />
         <span>A bell tent, yurt, tipi, or jupe with a queen bed.</span>
       </label>
-      <label class="checkbox-radio-label">
+      <label class="checkbox-radio-label" name="lodging-choice" value="Bell Tent with extra bed">
         <input type="radio" name="bell-tent" />
         <span>A bell tent with a queen bed and an additional air mattress. (TODO: info about costs?)</span>
       </label>
-      <label class="checkbox-radio-label">
+      <label class="checkbox-radio-label" name="lodging-choice" value="Off Site">
         <input type="radio" name="off-site" />
         <span>I don't plan to stay at the lodge.</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="cabin" />
+        <input type="radio" name="special" name="lodging-choice" value="Special"/>
         <span>We already chatted about lodging and you told me you had a special spot for me.</span>
       </label>
     </div>
