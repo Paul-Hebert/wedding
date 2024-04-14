@@ -43,12 +43,12 @@ layout: base.hbs
     <div class="two-column">
       <label>
         <span>Email</span>
-        <input type="email" name="email" required/>
+        <input type="email" name="email"  js-required/>
       </label>
 
       <label>
         <span>Phone Number</span>
-        <input type="tel" name="phone" required/>
+        <input type="tel" name="phone"  js-required/>
       </label>
     </div>
   </div>
@@ -65,7 +65,7 @@ layout: base.hbs
     <label>
       <span>Please list everyone in your group:</span>
 
-      <textarea name="full-attendees" required></textarea>
+      <textarea name="full-attendees"  js-required></textarea>
 
       <p>(Unfortunately the venue does not allow dogs.)</p>
     </label>
@@ -112,27 +112,27 @@ layout: base.hbs
 
     <div class="lodging-options">
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Camping" />
+        <input type="radio" name="Lodging Choice" value="Camping"  js-required/>
         <span>We'll bring our own tent and camp!</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="RV" />
+        <input type="radio" name="Lodging Choice" value="RV"  js-required/>
         <span>We'll bring an RV or trailer! (There are no electricity or water hook-ups.)</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Bell Tent" />
+        <input type="radio" name="Lodging Choice" value="Bell Tent"  js-required/>
         <span>A bell tent, yurt, tipi, or jupe with a queen bed.</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Bell Tent with extra bed" />
+        <input type="radio" name="Lodging Choice" value="Bell Tent with extra bed"  js-required/>
         <span>A bell tent with a queen bed and an additional air mattress. (TODO: info about costs?)</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Off Site" />
+        <input type="radio" name="Lodging Choice" value="Off Site"  js-required/>
         <span>I don't plan to stay at the lodge.</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Special"/>
+        <input type="radio" name="Lodging Choice" value="Special" js-required/>
         <span>We already chatted about lodging and you told me you had a special spot for me.</span>
       </label>
     </div>
@@ -174,7 +174,7 @@ layout: base.hbs
         TODO: more payment stuff?
       </span>
 
-      <select name="wants-food" required>
+      <select name="wants-food" js-required>
         <option disabled selected></option>
         <option value="yes">Yes, we'd like to eat your breakfasts and lunches!</option>
         <option value="no">No, we'll bring our own breakfasts and lunches.</option>
