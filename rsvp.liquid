@@ -114,7 +114,7 @@ layout: base.hbs
 
     <p>
       Please let us know your preference and we'll do our best to make it happen.
-      (Preference is given for guests who are staying multiple nights.)
+      (Priority is given to guests with health needs, small children, or who are staying multiple nights.)
     </p>
     
     <p><b><span>Where would your party like to sleep?</span></b></p>
@@ -163,8 +163,8 @@ layout: base.hbs
     </label>
   </div>
 
-  <div class="form-section food">
-    <h2>Food</h2>
+  <div class="form-section diet">
+    <h2>Dietary Restrictions</h2>
 
     <label>
       <span>
@@ -177,22 +177,26 @@ layout: base.hbs
     
       <textarea name="dietary-restrictions"></textarea>
     </label>
+  </div>
+  <div class="form-section weekend-food">
+    <h2>Weekend Meals</h2>
+
+      <p>
+        We'll be providing dinners Thursday, Friday and Saturday free of charge.
+        We plan to also do a large grocery trip to purchase breakfast and lunch
+        items that guests can access throughout the weekend. 
+      </p>
+
+      <p>
+        In order to provide these additional meals we're asking folks who would 
+        like these items to contribute a small amount to help cover the costs. 
+        We're asking for a contribution on a sliding scale of $0-$50 per person 
+        who wants these additional meals.
+      </p>
 
     <label>
       <span>
         Would you like us to provide you food for the whole weekend?
-      </span>
-
-      <span>
-        We'll be providing dinners Thursday, Friday and Saturday free of charge.
-        We plan to also do a large grocery trip to purchase breakfast and lunch
-        items that guests can access throughout the weekend. 
-      </span>
-
-      <span>
-        In order to provide these additional meals we're asking folks to contribute
-        a small amount to help cover the costs. We're asking for a contribution 
-        on a sliding scale of $0-$50 per person for these additional meals.
       </span>
 
       <select name="wants-food" js-required>
