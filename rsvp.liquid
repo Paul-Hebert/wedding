@@ -63,7 +63,7 @@ layout: base.hbs
     </p>
     
     <label>
-      <span>Please list everyone in your group:</span>
+      <span>Please list everyone in your group's first and last names:</span>
 
       <textarea name="full-attendees"  js-required></textarea>
 
@@ -95,6 +95,11 @@ layout: base.hbs
         <span>Saturday (the day of the ceremony)</span>
       </label>
     </div>
+
+    <label>
+      <span>What time of day will you arrive? (So we can plan for your meals)</span>
+      <input type="text" name="arrival-time" required/>
+    </label>
   </div>
 
   <div class="form-section lodging">
@@ -102,40 +107,59 @@ layout: base.hbs
 
     <p>
       There are a variety of lodging options to ensure you're comfortable at our
-      wedding. However, there's a limited number of some of the options.
-      Please let us know your preference and we'll do our best to make it happen.
+      wedding. However, there's a limited number of some of the options and some 
+      of them require additional payment.
     </p>
 
-    <p>TODO: Do we want to ask for money?</p>
+    <p>
+      Please let us know your preference and we'll do our best to make it happen.
+      (Preference is given for guests who are staying multiple nights.)
+    </p>
     
     <p><b><span>Where would your party like to sleep?</span></b></p>
 
     <div class="lodging-options">
       <label class="checkbox-radio-label">
         <input type="radio" name="Lodging Choice" value="Camping"  js-required/>
-        <span>We'll bring our own tent and camp!</span>
+        <span>We'll bring our own tent and camp. (Free!)</span>
+      </label>
+      <label class="checkbox-radio-label">
+        <input type="radio" name="Lodging Choice" value="van"  js-required/>
+        <span>We'll camp in our car/van. (Free!)</span>
       </label>
       <label class="checkbox-radio-label">
         <input type="radio" name="Lodging Choice" value="RV"  js-required/>
-        <span>We'll bring an RV or trailer! (There are no electricity or water hook-ups.)</span>
+        <span>We'll bring an RV or trailer! (There are no electricity or water hook-ups. Free!)</span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Bell Tent"  js-required/>
-        <span>A bell tent, yurt, tipi, or jupe with a queen bed.</span>
+        <input type="radio" name="Lodging Choice" value="Belle Tent"  js-required/>
+        <span>
+          A belle tent or jupe with a queen bed.
+          (Sliding scale: $0-$300 for the weekend)
+        </span>
       </label>
       <label class="checkbox-radio-label">
-        <input type="radio" name="Lodging Choice" value="Bell Tent with extra bed"  js-required/>
-        <span>A bell tent with a queen bed and an additional air mattress. (TODO: info about costs?)</span>
+        <input type="radio" name="Lodging Choice" value="Belle Tent with extra bed"  js-required/>
+        <span>
+          A belle tent with a queen bed and an additional queen air mattress. 
+          (Sliding scale: $40-$340 for the weekend)
+        </span>
       </label>
       <label class="checkbox-radio-label">
         <input type="radio" name="Lodging Choice" value="Off Site"  js-required/>
-        <span>I don't plan to stay at the lodge.</span>
+        <span>I don't plan to stay on site.</span>
       </label>
       <label class="checkbox-radio-label">
         <input type="radio" name="Lodging Choice" value="Special" js-required/>
         <span>We already chatted about lodging and you told me you had a special spot for me.</span>
       </label>
     </div>
+
+
+    <label>
+      <span>Anything else we should know about lodging?</span>
+      <textarea name="anything-else-about-lodging"></textarea>
+    </label>
   </div>
 
   <div class="form-section food">
@@ -166,8 +190,8 @@ layout: base.hbs
 
       <span>
         In order to provide these additional meals we're asking folks to contribute
-        a small amount to help cover the costs. We're asking for $50 per person for
-        these additional meals.
+        a small amount to help cover the costs. We're asking for a contribution 
+        on a sliding scale of $0-$50 per person for these additional meals.
       </span>
 
       <span>
