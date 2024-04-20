@@ -1,20 +1,28 @@
-@media (min-width: 850px) {
+main {
+  --main-size: 25rem;
+}
+
+.agenda {
+  display: grid;
+  gap: 2.5em;
+}
+
+@media (min-width: 650px) {
   main {
-    --main-size: 60rem;
+    --main-size: 40rem;
   }
 
   .agenda {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      ". overview . "
-      "thursday friday saturday";
+      "overview overview "
+      "thursday friday"
+      "saturday sunday";
     gap: 1.5em;
   }
 
   .agenda-overview {
     grid-area: overview;
-    margin-inline: -3em;
     text-align: center;
   }
 
@@ -28,5 +36,23 @@
 
   .saturday {
     grid-area: saturday;
+  }
+
+  .sunday {
+    grid-area: sunday;
+  }
+}
+
+@media (min-width: 950px) {
+  main {
+    --main-size: 70rem;
+  }
+
+  .agenda {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      ". overview overview . "
+      "thursday friday saturday sunday";
+    gap: 1.5em;
   }
 }
