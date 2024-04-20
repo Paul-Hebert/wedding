@@ -1,4 +1,3 @@
-- Fix button
 - Cross browser testing
 
 ## Lisa
