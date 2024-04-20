@@ -1,9 +1,5 @@
-- Make Lodging Page:
-  - Link to Trout creek website
-  - Map?
-  - Info about belle tents
-  - Hotels nearby (Trout Creek maybe has a page for this?)
-  - Activities nearby? (bonus)
+- Fix button
+- Cross browser testing
 
 ## Lisa
 
@@ -16,4 +12,3 @@
 - Set up better per page CSS loading
 - Optimize fonts
 - Resize images
-- FAQs form
