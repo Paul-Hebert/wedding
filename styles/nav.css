@@ -20,7 +20,7 @@
 
 .site-nav {
   display: flex;
-  gap: 1em;
+  gap: clamp(1em, 2vw, 1.5em);
 }
 
 .site-header a {

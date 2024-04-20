@@ -1,10 +1,3 @@
-- Optimize fonts
-- Set up better per page CSS loading
-- Colors?
-- About page?
-
-## Figure out today!!
-
 - Make Lodging Page:
   - Link to Trout creek website
   - Map?
@@ -17,3 +10,10 @@
 - Finish registry
 - About photos
   - Lisa will figure out on plane?
+
+## Nice to have
+
+- Set up better per page CSS loading
+- Optimize fonts
+- Resize images
+- FAQs form
