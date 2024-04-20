@@ -3,6 +3,7 @@ title: FAQs
 layout: base.hbs
 ---
 
+<link rel="stylesheet" href="/styles/faqs.css" />
 <link rel="stylesheet" href="/styles/form.css" />
 
 # Frequently asked questions
@@ -83,7 +84,7 @@ Don't see your question here? Reach out to below and we'll be sure to get back t
   class="rhythm"
 >
   <label>
-    <span>What is your question?</span>
+    <span>What are your questions?</span>
     <textarea name="question" required></textarea>
   </label>
   <label>
