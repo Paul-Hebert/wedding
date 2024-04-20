@@ -3,11 +3,9 @@ title: FAQs
 layout: base.hbs
 ---
 
+<link rel="stylesheet" href="/styles/form.css" />
+
 # Frequently asked questions
-
-Don't see your question here? Reach out to Lisa or Paul and we'll be sure to get back to you!
-
-TODO: Add a little form here?
 
 ## Are children allowed?
 
@@ -69,3 +67,38 @@ safe and comfortable!
 Cell service may be limited. There's hiking and other activities on site.
 
 Check out the [agenda](/agenda) and [lodging](/lodging) pages for more info!
+
+---
+
+## Still have questions?
+
+Don't see your question here? Reach out to below and we'll be sure to get back to you!
+
+<form  
+  name="faqs"
+  action="/thank-you-faqs"
+  method="POST"
+  data-netlify="true"
+  netlify
+  class="rhythm"
+>
+  <label>
+    <span>What is your question?</span>
+    <textarea name="question" required></textarea>
+  </label>
+  <label>
+    <span>What is your name?</span>
+    <input type="text" name="name" />
+  </label>
+  <label>
+    <span>What is your email?</span>
+    <input type="email" name="email" />
+  </label>
+
+  <button type="submit" class="button">
+    <span class="button-back"></span>
+    <span class="button-front">
+      <span class="button-text">Submit</span>
+    </span>
+  </button>
+</form>
