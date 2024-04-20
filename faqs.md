@@ -11,7 +11,7 @@ TODO: Add a little form here?
 
 ## Are children allowed?
 
-TODO...
+Yes, bring your kiddos! Just be sure to keep an eye on them. We'll be in the woods, a road runs through the property, and the river can be fast-moving.
 
 ## Are dogs allowed?
 
@@ -19,17 +19,33 @@ Unfortunately dogs are not allowed at Trout Creek Wilderness lodge in order to p
 
 ## Is food provided for the weekend?
 
-TODO: From RSVP...
+We'll be providing dinners Thursday, Friday and Saturday free of charge.
+We plan to also do a large grocery trip to purchase breakfast and lunch
+items that guests can access throughout the weekend.
+
+In order to provide these additional meals we're asking folks to contribute
+a small amount to help cover the costs. We're asking for a contribution
+on a sliding scale of $0-$50 per person for these additional meals.
+
+You can choose whether you'd like to opt in to these additional meals or not.
 
 ## What is the dress code?
 
-TODO: Overall weekend: camping casual. Wedding ceremony: wedding casual
+We'll be in the woods for the weekend so dress casually and comfortably.
 
-(Wedding is outside on the forest floor. Dress appropriately)
+For the day of the ceremony we ask that you dress "wedding casual."
+(Please dress nicely but it doesn't have to be too fancy.)
+
+You'll be walking around on the forest floor so you may want to skip the heels.
+Bring a swimsuit if you want to go swimming or hit the hot tub!
 
 ## What is the lodging like?
 
-TODO... Link to lodging page
+Check out our [lodging page!](/lodging)
+
+## Is it going to be inside or outside?
+
+We'll be outside pretty much the whole time! Please plan accordingly.
 
 ## Can I bring a Plus-One?
 
@@ -39,16 +55,17 @@ Please only bring serious partners: no friends or flings.
 
 ## Where can I park?
 
-TODO... Designated parking spaces, if all full you can park on side of road
+There are a number of designated parking spaces on the property. We ask that you
+carpool if possible. Check in with us when you arrive and we'll find you a spot
+to park
 
 ## Do I need to wear a mask or socially distance?
 
-TODO... No, but do what makes you feel comfortable
-
-## Is it going to be inside or outside?
-
-TODO... everything outside.
+We do not plan to mask or socially distance but please do whatever makes you feel
+safe and comfortable!
 
 ## Anything else I should know?
 
-TODO: Swimsuit, flashlight, anything else?
+Cell service may be limited. There's hiking and other activities on site.
+
+Check out the [agenda](/agenda) and [lodging](/lodging) pages for more info!
