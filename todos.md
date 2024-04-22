@@ -1,10 +1,5 @@
 - Cross browser testing
-
-## Lisa
-
-- Finish registry
-- About photos
-  - Lisa will figure out on plane?
+- about page
 
 ## Nice to have
 

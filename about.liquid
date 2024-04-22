@@ -8,7 +8,28 @@ layout: base.hbs
 <h1>About Lisa & Paul</h1>
 
 <div class="stack">
-  <figure class="stack__card polaroid polaroid--undeveloped">
+  {% for item in about %}
+    <figure 
+      class="stack__card polaroid polaroid--undeveloped"
+    >
+      <div class="polaroid__frame">
+        <img 
+          class="polaroid__image"
+          src="/images/about/{{item.src}}" 
+          alt="{{item.alt}}"
+          {% if forloop.index != 1 %}loading="lazy"{% endif %}
+        >
+      </div>
+      <figcaption class="polaroid__caption">
+        <span class="polaroid__title">
+          {{item.title}}
+        </span>
+      </figcaption>
+    </figure>
+  {% endfor %}
+
+
+  {% comment %} <figure class="stack__card polaroid polaroid--undeveloped">
     <div class="polaroid__frame">
       <img 
         class="polaroid__image"
@@ -303,5 +324,5 @@ layout: base.hbs
         10/13/20
       </time>
     </figcaption>
-  </figure>
+  </figure> {% endcomment %}
 </div>

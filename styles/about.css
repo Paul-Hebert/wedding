@@ -7,12 +7,11 @@ h1 {
 }
 
 .stack {
-  /* 4.2in is the polaroid height */
-  padding-bottom: calc(100vh - 4.2in);
   padding-top: 2em;
   position: relative;
   display: grid;
   place-content: center;
+  gap: 3em;
 }
 
 .stack__card {
@@ -22,14 +21,33 @@ h1 {
   --translate-x-direction: -1;
   --translate-y: 1px;
   --translate-y-direction: 1;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 2em;
   transform: rotate(calc(var(--rotate-value) * var(--rotate-direction)))
     translate(
       calc(var(--translate-x) * var(--translate-x-direction)),
       calc(var(--translate-y) * var(--translate-y-direction))
     );
+}
+
+@media (width <= 700px) {
+  .stack {
+    padding-bottom: calc(100vh - 4.2in);
+  }
+
+  .stack__card {
+    position: sticky;
+    top: 2em;
+  }
+}
+
+@media (width > 700px) {
+  main {
+    --main-size: 100vw;
+  }
+
+  .stack {
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    gap: 0;
+  }
 }
 
 .stack__card:nth-child(2n) {
@@ -70,11 +88,6 @@ h1 {
   --translate-x: 8px;
   --note-offset: 1.5rem;
 }
-
-.stack__card + .stack__card {
-  margin-top: 3em;
-}
-
 .note {
   font-size: 2em;
   text-align: center;
@@ -169,7 +182,7 @@ h1 {
 }
 
 .polaroid--is-developing .polaroid__image {
-  animation-duration: 1.25s;
+  animation-duration: 0.5s;
   animation-name: developing;
   animation-timing-function: ease;
 }
@@ -178,14 +191,10 @@ h1 {
   color: #336;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: var(--polaroid-caption-height);
 }
 
 .polaroid__title {
   font-size: 1.4em;
-}
-
-.polaroid__date {
-  font-size: 1.2em;
 }
