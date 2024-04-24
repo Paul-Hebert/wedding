@@ -1,13 +1,28 @@
 [
   {
     "src": "first-pic.JPG",
-    "title": "Lisa and Paul's first picture",
+    "title": "Lisa and Paul's first picture together",
     "alt": "Lisa and Paul smiling at the camera"
   },
   {
     "src": "dancing.jpg",
-    "title": "Dancing",
+    "title": "Christmas Dancing",
     "alt": "Lisa and Paul dancing in the living room"
+  },
+  {
+    "src": "clover-first-pic.jpeg",
+    "title": "First picture with Clover",
+    "alt": ""
+  },
+  {
+    "src": "engaged.jpeg",
+    "title": "Engaged in a cenote!",
+    "alt": ""
+  },
+  {
+    "src": "engagement-3.jpeg",
+    "title": "Engagement ring!",
+    "alt": ""
   },
   {
     "src": "river.JPG",
@@ -31,7 +46,7 @@
   },
   {
     "src": "kayak.jpeg",
-    "title": "Kayak picnic",
+    "title": "Picnicking on the water",
     "alt": "Lisa and Paul picnicking on a kayak"
   },
   {
@@ -41,12 +56,12 @@
   },
   {
     "src": "mohawk.JPG",
-    "title": "Mohawk, round 1",
+    "title": "Pandemics call for mohawks",
     "alt": "Lisa shaving Pauls' head into a mohawk"
   },
   {
     "src": "mullet.JPG",
-    "title": "New Years Mullet",
+    "title": "New Years Eve Mullet",
     "alt": "Lisa and Paul. Paul has a mullet"
   },
   {
@@ -61,187 +76,142 @@
   },
   {
     "src": "oz-2.jpeg",
-    "title": "Oz 2",
+    "title": "We're not in Kansas any more",
     "alt": ""
   },
   {
     "src": "eiffel.jpeg",
-    "title": "Eiffel",
+    "title": "France!",
     "alt": ""
   },
   {
     "src": "clover-hat.jpeg",
-    "title": "Clover hat",
+    "title": "Clover is a distinguished gentleman",
     "alt": ""
   },
   {
     "src": "hiking.jpg",
-    "title": "Hiking",
+    "title": "Out in the Woods",
     "alt": ""
   },
   {
     "src": "road trip.jpeg",
-    "title": "Road trip",
+    "title": "Road tripping",
     "alt": ""
   },
   {
     "src": "clove-backpack.jpeg",
-    "title": "Clove backpack",
+    "title": "Clover at Goat Rocks",
     "alt": ""
   },
   {
     "src": "beach-5.jpeg",
-    "title": "Beach 5",
+    "title": "Wild man",
     "alt": ""
   },
   {
     "src": "building-bed.jpg",
-    "title": "Building bed",
-    "alt": ""
-  },
-  {
-    "src": "tomatoes.jpeg",
-    "title": "Tomatoes",
+    "title": "Building a garden bed",
     "alt": ""
   },
   {
     "src": "lisa-nomad.jpeg",
-    "title": "Lisa nomad",
-    "alt": ""
-  },
-  {
-    "src": "clover-.jpeg",
-    "title": "Clover ",
+    "title": "Protected from the wind",
     "alt": ""
   },
   {
     "src": "kayak-2.jpeg",
-    "title": "Kayak 2",
-    "alt": ""
-  },
-  {
-    "src": "oz-1.jpeg",
-    "title": "Oz 1",
+    "title": "On the Water",
     "alt": ""
   },
   {
     "src": "beach-7.JPG",
-    "title": "Beach 7",
+    "title": "On the beach",
     "alt": ""
   },
   {
     "src": "tomatoes-2.jpeg",
-    "title": "Tomatoes 2",
-    "alt": ""
-  },
-  {
-    "src": "clover-first-pic.jpeg",
-    "title": "Clover first-pic",
+    "title": "Tomato harvest",
     "alt": ""
   },
   {
     "src": "baguette-again.JPG",
-    "title": "Baguette again",
+    "title": "Chamonix!",
     "alt": ""
   },
   {
     "src": "basil.jpeg",
-    "title": "Basil",
-    "alt": ""
-  },
-  {
-    "src": "engaged-ring.jpeg",
-    "title": "Engaged ring",
+    "title": "Time for Pesto!",
     "alt": ""
   },
   {
     "src": "lisa-clover.jpg",
-    "title": "Lisa clover",
+    "title": "Cuddling in bed",
     "alt": ""
   },
   {
     "src": "moving-tree.jpeg",
-    "title": "Moving tree",
-    "alt": ""
-  },
-  {
-    "src": "beach-2.jpeg",
-    "title": "Beach 2",
+    "title": "Bringing a tree home",
     "alt": ""
   },
   {
     "src": "beach.jpeg",
-    "title": "Beach",
+    "title": "Nom nom",
     "alt": ""
   },
   {
     "src": "beach-3.jpeg",
-    "title": "Beach 3",
+    "title": "Road trip beach stop",
     "alt": ""
   },
   {
     "src": "on-the-trail.jpeg",
-    "title": "On the-trail",
+    "title": "On the trail",
     "alt": ""
   },
   {
     "src": "rainy-hike.jpeg",
-    "title": "Rainy hike",
+    "title": "Hiking in the rain",
     "alt": ""
   },
   {
     "src": "smiling.jpeg",
-    "title": "Smiling",
-    "alt": ""
-  },
-  {
-    "src": "beach-4.jpeg",
-    "title": "Beach 4",
-    "alt": ""
-  },
-  {
-    "src": "fire.jpeg",
-    "title": "Fire",
+    "title": "Mexico!",
     "alt": ""
   },
   {
     "src": "snow-fam-2.jpg",
-    "title": "Snow fam-2",
+    "title": "Hiking to a waterfall",
     "alt": ""
   },
   {
     "src": "fire-2.jpeg",
-    "title": "Fire 2",
+    "title": "Staying warm",
     "alt": ""
   },
   {
     "src": "lotr-1.jpeg",
-    "title": "Lotr 1",
+    "title": "Frodo and Gandalf",
     "alt": ""
   },
   {
-    "src": "beach-6.jpeg",
-    "title": "Beach 6",
+    "src": "lotr-2.jpeg",
+    "title": "Winning the bar's costume contest!",
     "alt": ""
   },
   {
     "src": "fog-and-snow.jpeg",
-    "title": "Fog and-snow",
+    "title": "Goat rocks snow",
     "alt": ""
   },
   {
     "src": "masks.JPG",
-    "title": "Masks",
+    "title": "Lockdown",
     "alt": ""
   },
   {
     "src": "found-dog.jpeg",
-    "title": "Found dog",
-    "alt": ""
-  },
-  {
-    "src": "engagement-3.jpeg",
-    "title": "Engagement 3",
+    "title": "\"Found dog\"",
     "alt": ""
   },
   {
@@ -251,17 +221,7 @@
   },
   {
     "src": "outside-lands-char.jpeg",
-    "title": "Outside lands-char",
-    "alt": ""
-  },
-  {
-    "src": "engaged.jpeg",
-    "title": "Engaged",
-    "alt": ""
-  },
-  {
-    "src": "reading-olivia.JPG",
-    "title": "Reading olivia",
+    "title": "Outside lands with Char",
     "alt": ""
   },
   {
@@ -272,11 +232,6 @@
   {
     "src": "pumpkins-2.JPG",
     "title": "Pumpkins 2",
-    "alt": ""
-  },
-  {
-    "src": "baguette-2.JPG",
-    "title": "Baguette 2",
     "alt": ""
   },
   {
@@ -331,7 +286,7 @@
   },
   {
     "src": "baguette-1.JPG",
-    "title": "Baguette 1",
+    "title": "Baguette-about-it",
     "alt": ""
   },
   {
@@ -341,52 +296,42 @@
   },
   {
     "src": "front-yard-garden.jpeg",
-    "title": "Front yard-garden",
+    "title": "Front yard garden",
     "alt": ""
   },
   {
     "src": "paul-portrait.jpg",
-    "title": "Paul portrait",
+    "title": "Paul out in Mexico",
     "alt": ""
   },
   {
     "src": "clover-garden.jpeg",
-    "title": "Clover garden",
+    "title": "Clover in the garden",
     "alt": ""
   },
   {
     "src": "garlic.jpeg",
-    "title": "Garlic",
-    "alt": ""
-  },
-  {
-    "src": "lotr-2.jpeg",
-    "title": "Lotr 2",
+    "title": "Garlic Harvest",
     "alt": ""
   },
   {
     "src": "ice-cave.JPG",
-    "title": "Ice cave",
-    "alt": ""
-  },
-  {
-    "src": "first-pic.JPG",
-    "title": "First pic",
+    "title": "Chamonix Ice cave",
     "alt": ""
   },
   {
     "src": "board-game.jpg",
-    "title": "Board game",
+    "title": "Board gaming",
     "alt": ""
   },
   {
     "src": "pumpkins.jpeg",
-    "title": "Pumpkins",
+    "title": "At the pumpkin patch",
     "alt": ""
   },
   {
     "src": "wind.JPG",
-    "title": "Wind",
+    "title": "Hiking in the wind",
     "alt": ""
   },
   {
@@ -396,37 +341,27 @@
   },
   {
     "src": "wario.jpeg",
-    "title": "Wario",
+    "title": "Wario and Waluigi",
     "alt": ""
   },
   {
     "src": "oz-3.jpg",
-    "title": "Oz 3",
-    "alt": ""
-  },
-  {
-    "src": "outside-lands-2.jpeg",
-    "title": "Outside lands-2",
+    "title": "Duplicate Dorothys and lions",
     "alt": ""
   },
   {
     "src": "cooking-class.JPG",
-    "title": "Cooking class",
-    "alt": ""
-  },
-  {
-    "src": "smiling-2.JPG",
-    "title": "Smiling 2",
+    "title": "Cooking class (before the food poisoning)",
     "alt": ""
   },
   {
     "src": "camelbak.jpg",
-    "title": "Camelbak",
+    "title": "Staying Hydrated",
     "alt": ""
   },
   {
     "src": "clover-flowers.jpeg",
-    "title": "Clover flowers",
+    "title": "Clover in the flowers",
     "alt": ""
   }
 ]
