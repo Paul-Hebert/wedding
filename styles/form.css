@@ -14,6 +14,7 @@ textarea {
   background: white;
   border-radius: 0.25em;
   border: 1px solid hsl(40, 30%, 60%);
+  color: inherit;
 }
 
 select {
