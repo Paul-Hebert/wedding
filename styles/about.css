@@ -29,14 +29,14 @@ h1 {
 }
 
 @media (width <= 700px) {
-  .stack {
+  /* .stack {
     padding-bottom: calc(100vh - 4.2in);
   }
 
   .stack__card {
     position: sticky;
     top: 2em;
-  }
+  } */
 }
 
 @media (width > 700px) {
