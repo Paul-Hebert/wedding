@@ -40,7 +40,7 @@ Bring a swimsuit if you want to go swimming or hit the hot tub!
 
 ## What is the lodging like?
 
-Check out our [lodging page!](/lodging)
+Check out our [lodging page](/lodging)! (You can request specific lodging when you [RSVP](/rsvp).)
 
 ## Is it going to be inside or outside?
 
