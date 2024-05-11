@@ -27,6 +27,7 @@ a small amount to help cover the costs. We're asking for a contribution
 on a sliding scale of $0-$50 per person for these additional meals.
 
 You can choose whether you'd like to opt in to these additional meals or not.
+If you choose to contribute towards these additional meals in the RSVP form, we'll send you an email with more information about ways to pay in June.
 
 ## What is the dress code?
 
@@ -41,6 +42,11 @@ Bring a swimsuit if you want to go swimming or hit the hot tub!
 ## What is the lodging like?
 
 Check out our [lodging page](/lodging)! (You can request specific lodging when you [RSVP](/rsvp).)
+
+## How do I pay for lodging or additional food costs?
+
+If you chose to contribute towards lodging or food in the RSVP form, we'll send you an email
+with more information about ways to pay in June.
 
 ## Is it going to be inside or outside?
 
